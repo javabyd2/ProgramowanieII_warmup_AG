@@ -69,6 +69,11 @@ public class PTestImp {
         for (String s : unique) {
             compressedList.add(s);
         }
+
+        /*
+        Set<String> shortList = new LinkedHashSet<>(strings);
+        List<String> target = new ArrayList<>(shortList);
+         */
         return compressedList;
     }
 
